@@ -88,7 +88,7 @@ export function DataTableDemo() {
   });
 
   return (
-    <div className="w-full bg-gray-400 rounded-md  bg-opacity-10 p-10 ">
+    <div className="w-full bg-gray-400 rounded-md  bg-opacity-10 p-9 ">
         <h2 className="text-xl font-bold text-white mx-auto mb-4">LEADERBOARD👑</h2>
       <div className="flex items-center py-4">
         <Input

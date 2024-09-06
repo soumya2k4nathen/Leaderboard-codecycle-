@@ -18,10 +18,10 @@ const Leader = () => {
 
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      <div className="relative z-10 flex flex-col items-center p-8 text-center">
+      <div className="relative z-10 flex flex-col items-center p-5 text-center">
         <h1 className="text-4xl font-bold text-white mt-1 ">CODE CYCLE</h1>
 
-        <div className="w-3/4 p-6 mt-6 rounded-md border-gray-500 ">
+        <div className="w-3/4 mt-10 rounded-md border-gray-500 ">
           <DataTableDemo />
         </div>
       </div>
