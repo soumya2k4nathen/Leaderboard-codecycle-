@@ -88,7 +88,8 @@ export function DataTableDemo() {
   });
 
   return (
-    <div className="w-full">
+    <div className="w-full bg-gray-400 rounded-md  bg-opacity-10 p-10 ">
+        <h2 className="text-xl font-bold text-white mx-auto mb-4">LEADERBOARD👑</h2>
       <div className="flex items-center py-4">
         <Input
           placeholder="Search..."
@@ -98,7 +99,7 @@ export function DataTableDemo() {
         />
       </div>
       <div className="rounded-md border border-gray-100 bg-opacity-0"> {/* Glassmorphism effect */}
-        <Table className="text-white"> {/* White text color for table */}
+        <Table className="text-white">
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
@@ -155,6 +156,7 @@ export function DataTableDemo() {
         </Button>
       </div>
     </div>
+  
   );
 }
 
